@@ -39,7 +39,7 @@ baseurl: "/LabGarden" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter: Adam Al-Rahman
+    twitter: AdamAlRahman1
     github: Adam-Al-Rahman
 
 # Set this to true to get LaTeX math equation support
