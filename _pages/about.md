@@ -4,8 +4,14 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+<p>
+    Hello, I'm Atiq and I enjoy reading, researching &amp; creating things. My
+    interest in coding started, when I heard python in one of a physics videos.
+</p>
+<p>
+    Fast-forward to today, and I’ve the privilege to study in one of the well known college in India
+    <a href="https://www.upes.ac.in/about-us">UPES</a> located at Dehradun.
+</p>
+<p>
+    Right now, I'm pursuing my bachelor degree in computer science.
+</p>
