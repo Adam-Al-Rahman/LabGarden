@@ -10,7 +10,7 @@ permalink: /about/
 </p>
 <p>
     Fast-forward to today, and I’ve the privilege to study in one of the well known college in India
-    <a href="https://www.upes.ac.in/about-us">UPES</a> located at Dehradun.
+    <a href="https://www.upes.ac.in/about-us" target="_blank">UPES</a> located at Dehradun.
 </p>
 <p>
     Right now, I'm pursuing my bachelor degree in computer science.
