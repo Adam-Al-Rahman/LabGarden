@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "<span styel="color:green"><u>What is Machine Learning?</u></span>",
+            "content": ". title: &quot;Machine Learning&quot; description: &quot;Learning how to create a machine learning model&quot; layout: post toc: false comments: true image: images/some_folder/your_image.png hide: false search_exclude: true categories: [fastpages, jupyter] metadata_key1: metadata_value1 . metadata_key2: metadata_value2 . How did we get Here? . In early stage to collect data we used Spreadsheets. CSV | Excel | . | . As the data grow the new technologies appeard . Relational DataBase(DB) MySQL (Query language to to CRUD operation) | . | . And as the data grow more and more. In 2000 we got the fancy term called Big data . Big data MongoDB (NoSQL) | . | . Now we have collect alot of data and to utilize that in Machine learning as data source. . Steps in a full Machine learning project . Data Science : To utilize the huge data. . Types of Machine Learning : . Supervised Learning : Classification. Classifying is this(relative) a apple or mango. | Regression. like predicting stock prices. | . | Unsupervised Learning : . Clustering. Making group of the similar data and then predict. | Assiciation Rule Learning. | . | Reinforcement Learning . Skill acquisiton. | Real time learning. | . | .",
+            "url": "https://adam-al-rahman.github.io/LabGarden/2021/10/26/ML_101.html",
+            "relUrl": "/2021/10/26/ML_101.html",
+            "date": " • Oct 26, 2021"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://adam-al-rahman.github.io/LabGarden/about/",
