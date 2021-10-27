@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "Machine Learning",
+            "content": "What is Machine Learning? . It is a way to convert things(data) into numbers and find patterns in those number. . Data -&gt; Machine learning alogrithm(model) -&gt; Patterns . Narrow AI : The machine AI which is good at specifc task only one thing. . General AI : The AI machine which good at many task. . How did we get Here? . In early stage to collect data we used Spreadsheets. CSV | Excel | . | . As the data grow the new technologies appeard . Relational DataBase(DB) MySQL (Query language to to CRUD operation) | CRUD : Create Read Update Delete. | . | . And as the data grow more and more. In 2000 we got the fancy term called Big data . Big data MongoDB (NoSQL) | . | . Now we have collect alot of data and to utilize that in Machine learning as data source. . Steps in a full Machine learning project . Data Science : To utilize the huge data. . Types of Machine Learning : . Supervised Learning : . Classification. Classifying is this(relative) a apple or mango. | Regression. like predicting stock prices. | . | Semi-Supervised Learning : . This include the character of both supervised and unsupervised learning. | . | Unsupervised Learning : . Clustering. Making group of the similar data and then predict. | Assiciation Rule Learning. | . | Reinforcement Learning . Skill acquisiton. | Real time learning. | . | .",
+            "url": "https://adam-al-rahman.github.io/LabGarden/machine-learning/jupyter/ai/2021/10/27/ML_101.html",
+            "relUrl": "/machine-learning/jupyter/ai/2021/10/27/ML_101.html",
+            "date": " • Oct 27, 2021"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://adam-al-rahman.github.io/LabGarden/about/",
