@@ -15,3 +15,5 @@ permalink: /about/
 <p>
     Right now, I'm pursuing my bachelor degree in computer science.
 </p>
+
+> <a href="https://atiq-ur-rehaman.netlify.app/" target="_blank">Portfolio</a>
