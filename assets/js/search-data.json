@@ -1,24 +1,13 @@
 {
   
-    
-        "post0": {
-            "title": "What is Machine Learning?",
-            "content": "Data -&gt; Machine learning alogrithm(model) -&gt; Patterns . Narrow AI : The machine AI which is good at specific task only one thing. . General AI : The AI machine which good at many task. . How did we get Here? . In early stage to collect data we used Spreadsheets. CSV | Excel | . | . As the data grow the new technologies appeard . Relational DataBase(DB) MySQL (Query language to to CRUD operation) | CRUD : Create Read Update Delete. | . | . And as the data grow more and more. In 2000 we got the fancy term called Big data . Big data MongoDB (NoSQL) | . | . Now we have collect alot of data and to utilize that in Machine learning as data source. . Steps in a full Machine learning project . Data Science : To utilize the huge data. . Types of Machine Learning : . Supervised Learning : . Classification. Classifying is this(relative) a apple or mango. | Regression. like predicting stock prices. | . | Semi-Supervised Learning : . This include the character of both supervised and unsupervised learning. | . | Unsupervised Learning : . Clustering. Making group of the similar data and then predict. | Assiciation Rule Learning. | . | Reinforcement Learning . Skill acquisiton. | Real time learning. | . | .",
-            "url": "https://adam-al-rahman.github.io/LabGarden/machine-learning/2021/10/27/ML_101.html",
-            "relUrl": "/machine-learning/2021/10/27/ML_101.html",
-            "date": " • Oct 27, 2021"
-        }
-        
-    
-  
 
   
   
 
   
-      ,"page1": {
+      "page1": {
           "title": "About Me",
-          "content": "Hello, I&#39;m Atiq and I enjoy reading, researching &amp; creating things. My interest in coding started, when I heard python in one of a physics videos. . Fast-forward to today, and I’ve the privilege to study in one of the well known college in India UPES located at Dehradun. . Right now, I&#39;m pursuing my bachelor degree in computer science. .",
+          "content": "Hello, I&#39;m Atiq and I enjoy reading, researching &amp; creating things. My interest in coding started, when I heard python in one of a physics videos. . Fast-forward to today, and I’ve the privilege to study in one of the well known college in India UPES located at Dehradun. . Right now, I&#39;m pursuing my bachelor degree in computer science. . Portfolio .",
           "url": "https://adam-al-rahman.github.io/LabGarden/about/",
           "relUrl": "/about/",
           "date": ""
