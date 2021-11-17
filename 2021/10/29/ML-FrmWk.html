@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>The framework comprises six steps | LabGarden</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="The framework comprises six steps" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Knowledge base of mine Jupyter Notebooks." />
+<meta property="og:description" content="Knowledge base of mine Jupyter Notebooks." />
+<link rel="canonical" href="https://adam-al-rahman.github.io/LabGarden/2021/10/29/ML-FrmWk.html" />
+<meta property="og:url" content="https://adam-al-rahman.github.io/LabGarden/2021/10/29/ML-FrmWk.html" />
+<meta property="og:site_name" content="LabGarden" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-29T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://adam-al-rahman.github.io/LabGarden/2021/10/29/ML-FrmWk.html","@type":"BlogPosting","headline":"The framework comprises six steps","dateModified":"2021-10-29T00:00:00-05:00","datePublished":"2021-10-29T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://adam-al-rahman.github.io/LabGarden/2021/10/29/ML-FrmWk.html"},"description":"Knowledge base of mine Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/LabGarden/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://adam-al-rahman.github.io/LabGarden/feed.xml" title="LabGarden" /><link rel="shortcut icon" type="image/x-icon" href="/LabGarden/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/LabGarden/">LabGarden</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/LabGarden/about/">About Me</a><a class="page-link" href="/LabGarden/search/">Search</a><a class="page-link" href="/LabGarden/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">The framework comprises six steps</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-10-29T00:00:00-05:00" itemprop="datePublished">
+        Oct 29, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      5 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/Adam-Al-Rahman/LabGarden/tree/master/_notebooks/2021-10-29-ML-FrmWk.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/LabGarden/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/Adam-Al-Rahman/LabGarden/master?filepath=_notebooks%2F2021-10-29-ML-FrmWk.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/LabGarden/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/Adam-Al-Rahman/LabGarden/blob/master/_notebooks/2021-10-29-ML-FrmWk.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/LabGarden/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-10-29-ML-FrmWk.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Steps-in-Data-Modelling:">Steps in Data Modelling:<a class="anchor-link" href="#Steps-in-Data-Modelling:"> </a></h1><ol>
+<li><p>Problem Definition: "What problem are we trying to solve?"</p>
+<ul>
+<li>Supervised.</li>
+<li>Unsupervised.</li>
+<li>Classification.</li>
+<li>Regression.</li>
+</ul>
+</li>
+<li><p>Data: "What data do we have?"</p>
+<ul>
+<li>Structured.</li>
+<li>Unstructured.</li>
+</ul>
+</li>
+<li><p>Evalution: "What defines succes for us?"</p>
+</li>
+<li><p>Features: "What do we already know about the data?"</p>
+</li>
+<li><p>Modelling: "Based on our problem and data, what model should we use?"</p>
+</li>
+<li><p>Experimentation: "How could we improve?/what else can we try?"</p>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="1.-Types-of-Machine-Learning-problems">1. <span style="color:yellow">Types of Machine Learning problems</span><a class="anchor-link" href="#1.-Types-of-Machine-Learning-problems"> </a></h1><h2 id="Supervised-Learning:">Supervised Learning:<a class="anchor-link" href="#Supervised-Learning:"> </a></h2><p>It is called Supervise Learning, because here we have <code>data</code> and <code>labels</code>. Here a machine learning algorithms tries to use the data to predict a <code>label</code>.</p>
+<p>If it guesses the label wrong, the algorithms corrects itself and tries again. This active correction why is called <code>Supervise</code></p>
+<h2 id="Main-type-of-Supervised-Learning-problems:">Main type of Supervised Learning problems:<a class="anchor-link" href="#Main-type-of-Supervised-Learning-problems:"> </a></h2><ol>
+<li><p>Classification:</p>
+<ul>
+<li>"Is this example one thing or another?"</li>
+<li>Binary classification = two options</li>
+<li>Multi-class classification = more than two options</li>
+</ul>
+</li>
+<li><p>Regression:</p>
+<ul>
+<li>"How much will this house sell for?"</li>
+<li>"How many people will buy this app?"</li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Unsupervised-Learning">Unsupervised Learning<a class="anchor-link" href="#Unsupervised-Learning"> </a></h1><h3 id="It-has-data-but-no-labels">It has data but no labels<a class="anchor-link" href="#It-has-data-but-no-labels"> </a></h3><h2 id="Main-types-of-Unsupervised-Learning-problems:">Main types of Unsupervised Learning problems:<a class="anchor-link" href="#Main-types-of-Unsupervised-Learning-problems:"> </a></h2><ol>
+<li>Cluster:<ul>
+<li>Grouping the labels.</li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Transfer-Learning">Transfer Learning<a class="anchor-link" href="#Transfer-Learning"> </a></h1><h3 id="Use-the-pre-build-model-for-similar-project-to-predict-and-customize-it-to-make-it-precise-that-aren't-cover-in-pre-build-model.">Use the pre-build model for similar project to predict and customize it to make it precise that aren't cover in pre-build model.<a class="anchor-link" href="#Use-the-pre-build-model-for-similar-project-to-predict-and-customize-it-to-make-it-precise-that-aren't-cover-in-pre-build-model."> </a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Reinforcment-Learning">Reinforcment Learning<a class="anchor-link" href="#Reinforcment-Learning"> </a></h1><ul>
+<li>+1 if the model do correct.</li>
+<li>-1 if the model do wrong.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="2.-Data">2. Data<a class="anchor-link" href="#2.-Data"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Types-of-Data">Types of Data<a class="anchor-link" href="#Types-of-Data"> </a></h2><ol>
+<li><p>Structured data :</p>
+<ul>
+<li>CSV (comma separated values)</li>
+<li>excel sheet</li>
+</ul>
+</li>
+<li><p>Unstructured data :</p>
+<ul>
+<li>Images.</li>
+<li>voices.</li>
+<li>Natural language processing.</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p>### Static data :
+  Data that does not change over time.
+  eg : Csv,...</p>
+</li>
+<li><p>### Streaming data : 
+  Data that changes over time.
+  eg : stock, news,...</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Workflow">Workflow<a class="anchor-link" href="#Workflow"> </a></h1><p>Static / streaming =&gt; jupyter-lab =&gt; Data_Analysis (pandas) =&gt; matplotlib/plotly =&gt; machine_learning_model (tensorflow / Scikit learn) =&gt; results</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="3.-Evaluation-:-&quot;What-defines-success-for-us?&quot;">3. Evaluation : "What defines success for us?"<a class="anchor-link" href="#3.-Evaluation-:-&quot;What-defines-success-for-us?&quot;"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Different-types-fo-metrics">Different types fo metrics<a class="anchor-link" href="#Different-types-fo-metrics"> </a></h3><table>
+<thead><tr>
+<th>Classification</th>
+<th>Regression</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accuracy</td>
+<td>Mean absolute error (MAE)</td>
+<td>precision at K</td>
+</tr>
+<tr>
+<td>Precision</td>
+<td>Mean squared error (MSE)</td>
+<td></td>
+</tr>
+<tr>
+<td>Recall</td>
+<td>Root mean squared error (RMSE)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="4-Features-in-Data-:-What-do-we-already-know-about-the-data?">4 Features in Data : What do we already know about the data?<a class="anchor-link" href="#4-Features-in-Data-:-What-do-we-already-know-about-the-data?"> </a></h1><h3 id="Use-Feature-variable-(weight,-heart-rate)-to-predict-Target-variable-(Heart-disease?)">Use Feature variable (weight, heart rate) to predict Target variable (Heart disease?)<a class="anchor-link" href="#Use-Feature-variable-(weight,-heart-rate)-to-predict-Target-variable-(Heart-disease?)"> </a></h3><ul>
+<li><p>Numerical Feature :
+  A number like body weigth</p>
+</li>
+<li><p>Categorial features : 
+  Like one in two (yes / no)</p>
+</li>
+<li><p>Derived feature :
+  Look at the data and create new feature using the existing one.</p>
+<blockquote><p><u style="color:yellow;font-size:16px;">Feature Engineering</u>: Looking at different features of data and creating new ones/altering existing ones.</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<blockquote><p><u style="color:yellow;font-size:16px;">Feature Coverage</u>: How many samples have different features? Ideally, every sample has the same features.</p>
+<h3 id="What-are-features-of-your-problems?">What are features of your problems?<a class="anchor-link" href="#What-are-features-of-your-problems?"> </a></h3><hr />
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="5.-Modelling-:">5. Modelling :<a class="anchor-link" href="#5.-Modelling-:"> </a></h1><h2 id="I.-Choosing-and-training-a-model.-[Training-data]">I. Choosing and training a model. [Training data]<a class="anchor-link" href="#I.-Choosing-and-training-a-model.-[Training-data]"> </a></h2><h2 id="II.-Tuning-a-model.-[Validatin-data]">II. Tuning a model. [Validatin data]<a class="anchor-link" href="#II.-Tuning-a-model.-[Validatin-data]"> </a></h2><h2 id="III.-Model-comparison.-[Test-data]">III. Model comparison. [Test data]<a class="anchor-link" href="#III.-Model-comparison.-[Test-data]"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><h1 style="color:#c890f7">The most important concept in machine learning.</h1>(The training, validation and test sets <u>or</u> $\boxed{3 sets}$)</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Split-data-into-:"><u>Split data into</u> :<a class="anchor-link" href="#Split-data-into-:"> </a></h2><ul>
+<li>Training [Train your model on this ] : 70-80%</li>
+<li>Validation [Tune your model on this ] : 10-15%</li>
+<li>Test [ Test and compare on this ] : 10-15%</li>
+</ul>
+<blockquote><p>All the split are different.</p>
+</blockquote>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="When-thing-go-wrong?">When thing go wrong?<a class="anchor-link" href="#When-thing-go-wrong?"> </a></h3><h4 id="When-Test-is-revealed-before-the-time.">When <code>Test</code> is revealed before the time.<a class="anchor-link" href="#When-Test-is-revealed-before-the-time."> </a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Modelling-:-Picking-the-model">Modelling : Picking the model<a class="anchor-link" href="#Modelling-:-Picking-the-model"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Problem-1-=&gt;-Model-1">Problem-1 =&gt; Model-1<a class="anchor-link" href="#Problem-1-=&gt;-Model-1"> </a></h3><h3 id="Problem-2-=&gt;-Model-2">Problem-2 =&gt; Model-2<a class="anchor-link" href="#Problem-2-=&gt;-Model-2"> </a></h3><h2 id="Sturctured-Data">Sturctured Data<a class="anchor-link" href="#Sturctured-Data"> </a></h2><ul>
+<li>CatBoost</li>
+<li>dmlc XGBoost</li>
+<li>Random Forest</li>
+</ul>
+<h2 id="Unstructured-Data">Unstructured Data<a class="anchor-link" href="#Unstructured-Data"> </a></h2><ul>
+<li>Deep learning.</li>
+<li>Transfer learning.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Training-a-Model"><u>Training a Model</u><a class="anchor-link" href="#Training-a-Model"> </a></h2><h3 id="X(data):">X(data):<a class="anchor-link" href="#X(data):"> </a></h3>
+<pre><code>- Weight
+- Sex
+- heart rate
+- chest pain
+
+</code></pre>
+<h3 id="y(label)">y(label)<a class="anchor-link" href="#y(label)"> </a></h3>
+<pre><code>- Heart disease?
+</code></pre>
+<blockquote><p>Goal :Minize time between experiments
+Experiment</p>
+</blockquote>
+<ol>
+<li>Input =&gt; Model-1 =&gt; Accurary | Training-Time | Prediction-Time</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+<h2 id="Thing-to-remember">Thing to remember<a class="anchor-link" href="#Thing-to-remember"> </a></h2><ul>
+<li>Some models work better than other on different problems.</li>
+<li>Don't be afraid to try things.</li>
+<li>Start small and build up (add complexit) as you need.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Modelling-:-Tuning">Modelling : Tuning<a class="anchor-link" href="#Modelling-:-Tuning"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Random-Forest:">Random Forest:<a class="anchor-link" href="#Random-Forest:"> </a></h3>
+<pre><code>Allow to adjust number of tree.
+
+</code></pre>
+<h3 id="Neural-network:">Neural network:<a class="anchor-link" href="#Neural-network:"> </a></h3>
+<pre><code>Allow to adjust number of hidden layers.</code></pre>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Things-to-remember:">Things to remember:<a class="anchor-link" href="#Things-to-remember:"> </a></h3><ul>
+<li>Machine learning model have hyperparameters you can adjust.</li>
+<li>A models first result aren't its last.</li>
+<li>Tuning can take place on training or validation data sets.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Modeling-:-comparison">Modeling : comparison<a class="anchor-link" href="#Modeling-:-comparison"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Testing-a-model">Testing a model<a class="anchor-link" href="#Testing-a-model"> </a></h3><h4 id="Right-Way-:"><u>Right Way</u> :<a class="anchor-link" href="#Right-Way-:"> </a></h4><ul>
+<li>Balanced [Goldilocks Zone]</li>
+</ul>
+<table>
+<thead><tr>
+<th>Data Set</th>
+<th>Performace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Training</td>
+<td>98%</td>
+</tr>
+<tr>
+<td>Test</td>
+<td>96%</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="Wrong-Way-:"><u>Wrong Way</u> :<a class="anchor-link" href="#Wrong-Way-:"> </a></h4><ul>
+<li>Underfitting [Potential]</li>
+</ul>
+<table>
+<thead><tr>
+<th>Data Set</th>
+<th>Performace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Training</td>
+<td>64%</td>
+</tr>
+<tr>
+<td>Test</td>
+<td>47%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Overfitting [Potential]</li>
+</ul>
+<table>
+<thead><tr>
+<th>Data Set</th>
+<th>Performace</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Training</td>
+<td>93%</td>
+</tr>
+<tr>
+<td>Test</td>
+<td>99%</td>
+</tr>
+</tbody>
+</table>
+<p><figure>
+  
+    <img class="docimage" src="/LabGarden/images/copied_from_nb/../images/Images_ML-Frmwk/Overfitting&amp;Underfitting.png" alt="" />
+    
+    
+</figure>
+</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Overfitting-and-underfitting">Overfitting and underfitting<a class="anchor-link" href="#Overfitting-and-underfitting"> </a></h2><h3 id="Data-Leakage-:">Data Leakage :<a class="anchor-link" href="#Data-Leakage-:"> </a></h3><p>This happens when <code>Training data</code> leaks into <code>Test data</code>, Which make occurs of <span style="color:pink;font-size:18px"> Overfitting </span></p>
+<h3 id="Data-Mismatch-:">Data Mismatch :<a class="anchor-link" href="#Data-Mismatch-:"> </a></h3><p>This happen when <code>Training data</code> is different than <code>Test data</code>, Which lead to <span style="color:pink;font-size:18px"> Underfitting </span></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Fixes-for-overfitting-and-underfitting">Fixes for overfitting and underfitting<a class="anchor-link" href="#Fixes-for-overfitting-and-underfitting"> </a></h1><h3 id="Underfitting-:">Underfitting :<a class="anchor-link" href="#Underfitting-:"> </a></h3><ul>
+<li>Try a more advanced model.</li>
+<li>Increase model hyperparameters.</li>
+<li>Reduce amount of features.</li>
+<li>Train longer.</li>
+</ul>
+<h3 id="Overfitting-:">Overfitting :<a class="anchor-link" href="#Overfitting-:"> </a></h3><ul>
+<li>collect more data.</li>
+<li>Try a less advanced model.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Thing-to-remember">Thing to remember<a class="anchor-link" href="#Thing-to-remember"> </a></h3><ul>
+<li>Want to avoid overfitting and underfitting (head towards generality)</li>
+<li>keep the test set separate at all costs.</li>
+<li>Compare apples to apples.</li>
+<li>One best performance metric does not equal best model</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Overfitting-and-Underfitting-Definitions">Overfitting and Underfitting Definitions<a class="anchor-link" href="#Overfitting-and-Underfitting-Definitions"> </a></h1><p>All experiments should be conducted on different portions of your data.</p>
+<p>Training data set — Use this set for model training, 70–80% of your data is the standard.</p>
+<p>Validation/development data set — Use this set for model hyperparameter tuning and experimentation evaluation, 10–15% of your data is the standard.</p>
+<p>Test data set — Use this set for model testing and comparison, 10–15% of your data is the standard.</p>
+<p>These amounts can fluctuate slightly, depending on your problem and the data you have.</p>
+<p>Poor performance on training data means the model hasn’t learned properly and is underfitting. Try a different model, improve the existing one through hyperparameter or collect more data.</p>
+<p>Great performance on the training data but poor performance on test data means your model doesn’t generalize well. Your model may be overfitting the training data. Try using a simpler model or making sure your the test data is of the same style your model is training on.</p>
+<p>Another form of overfitting can come in the form of better performance on test data than training data. This may mean your testing data is leaking into your training data (incorrect data splits) or you've spent too much time optimizing your model for the test set data. Ensure your training and test datasets are kept separate at all times and avoid optimizing a models performance on the test set (use the training and validation sets for model improvement).</p>
+<p>Poor performance once deployed (in the real world) means there’s a difference in what you trained and tested your model on and what is actually happening. Ensure the data you're using during experimentation matches up with the data you're using in production.</p>
+<p>Fullscreen</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Experimentation:-&quot;What-have-tried/-what-else-can-we-try?&quot;">Experimentation: "What have tried/ what else can we try?"<a class="anchor-link" href="#Experimentation:-&quot;What-have-tried/-what-else-can-we-try?&quot;"> </a></h1><h3 id="Doing-experimentation-with-input-hyperparameter,-until-hit-the-spot.">Doing experimentation with input hyperparameter, until hit the spot.<a class="anchor-link" href="#Doing-experimentation-with-input-hyperparameter,-until-hit-the-spot."> </a></h3>
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/LabGarden/2021/10/29/ML-FrmWk.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/LabGarden/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/LabGarden/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/LabGarden/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Knowledge base of mine Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/Adam-Al-Rahman" title="Adam-Al-Rahman"><svg class="svg-icon grey"><use xlink:href="/LabGarden/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/AdamAlRahman1" title="AdamAlRahman1"><svg class="svg-icon grey"><use xlink:href="/LabGarden/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
