@@ -4,19 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Title | LabGarden</title>
+<title>Flood Prediction | LabGarden</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Title" />
+<meta property="og:title" content="Flood Prediction" />
+<meta name="author" content="Atiq Urrehaman" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Knowledge base of mine Jupyter Notebooks." />
-<meta property="og:description" content="Knowledge base of mine Jupyter Notebooks." />
-<link rel="canonical" href="https://adam-al-rahman.github.io/LabGarden/2022/02/11/Hackathon.html" />
-<meta property="og:url" content="https://adam-al-rahman.github.io/LabGarden/2022/02/11/Hackathon.html" />
+<meta name="description" content="Flood Prediction of Indian State using the Rainfall data." />
+<meta property="og:description" content="Flood Prediction of Indian State using the Rainfall data." />
+<link rel="canonical" href="https://adam-al-rahman.github.io/LabGarden/machine_learning/tensorflow/2022/02/11/Hackathon.html" />
+<meta property="og:url" content="https://adam-al-rahman.github.io/LabGarden/machine_learning/tensorflow/2022/02/11/Hackathon.html" />
 <meta property="og:site_name" content="LabGarden" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-02-11T00:00:00-06:00" />
 <script type="application/ld+json">
-{"url":"https://adam-al-rahman.github.io/LabGarden/2022/02/11/Hackathon.html","@type":"BlogPosting","headline":"Title","dateModified":"2022-02-11T00:00:00-06:00","datePublished":"2022-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://adam-al-rahman.github.io/LabGarden/2022/02/11/Hackathon.html"},"description":"Knowledge base of mine Jupyter Notebooks.","@context":"https://schema.org"}</script>
+{"url":"https://adam-al-rahman.github.io/LabGarden/machine_learning/tensorflow/2022/02/11/Hackathon.html","@type":"BlogPosting","headline":"Flood Prediction","dateModified":"2022-02-11T00:00:00-06:00","datePublished":"2022-02-11T00:00:00-06:00","author":{"@type":"Person","name":"Atiq Urrehaman"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://adam-al-rahman.github.io/LabGarden/machine_learning/tensorflow/2022/02/11/Hackathon.html"},"description":"Flood Prediction of Indian State using the Rainfall data.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/LabGarden/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://adam-al-rahman.github.io/LabGarden/feed.xml" title="LabGarden" /><link rel="shortcut icon" type="image/x-icon" href="/LabGarden/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -87,9 +88,11 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-02-11T00:00:00-06:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Flood Prediction</h1><p class="page-description">Flood Prediction of Indian State using the Rainfall data.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-02-11T00:00:00-06:00" itemprop="datePublished">
         Feb 11, 2022
-      </time>
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Atiq Urrehaman</span></span>
        • <span class="read-time" title="Estimated read time">
     
     
@@ -97,6 +100,16 @@ window.onload = wrap_img;
     
 </span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/LabGarden/categories/#machine_learning">machine_learning</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/LabGarden/categories/#tensorflow">tensorflow</a>
+        
+      
+      </p>
     
 
     
@@ -133,33 +146,9 @@ window.onload = wrap_img;
 
 <div class="container" id="notebook-container">
         
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">&gt;</span> <span class="s2">&quot;Flood Prediction of Indian State using the Rainfall data.&quot;</span>
-
-<span class="o">-</span> <span class="n">badges</span><span class="p">:</span> <span class="n">true</span>
-<span class="o">-</span> <span class="n">comments</span><span class="p">:</span> <span class="n">true</span>
-<span class="o">-</span> <span class="n">categories</span><span class="p">:</span> <span class="p">[</span><span class="n">machine_learning</span><span class="p">,</span> <span class="n">tensorflow</span><span class="p">]</span>
-<span class="o">-</span> <span class="n">hide</span><span class="p">:</span> <span class="n">false</span>
-<span class="o">-</span> <span class="n">author</span><span class="p">:</span> <span class="n">Atiq</span> <span class="n">Urrehaman</span>
-<span class="o">-</span> <span class="n">search_exclude</span><span class="p">:</span> <span class="n">false</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><h1 align="center" style="color:#ff79c6">Hackathon - 6.0</h1></p>
+<p><h2 align="center" style="color:#ff79c6">Hackathon - 6.0</h2></p>
 <h5 align="center">Category - A:  AI - Natural Disaster Prediction</h5>
 </div>
 </div>
@@ -2387,23 +2376,6 @@ Oct-Dec : 0
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#X = np.expand_dims(X, axis=0)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">updated_shuffled_data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">:</span><span class="mi">15</span><span class="p">])</span>
 </pre></div>
 
@@ -2790,7 +2762,15 @@ Make sure all arrays contain the same number of samples.</pre>
 
 
 
-  </div><a class="u-url" href="/LabGarden/2022/02/11/Hackathon.html" hidden></a>
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Adam-Al-Rahman/LabGarden"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="dark-blue"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/LabGarden/machine_learning/tensorflow/2022/02/11/Hackathon.html" hidden></a>
 </article>
       </div>
     </main><footer class="site-footer h-card">
