@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://adam-al-rahman.github.io/LabGarden/machine_learning/deep_learning/artificial_learning/2021/10/27/ML-101.html</loc>
+<loc>https://adam-al-rahman.github.io/LabGarden/machine-learning/2021/10/27/ML-101.html</loc>
 <lastmod>2021-10-27T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -23,10 +23,6 @@
 <url>
 <loc>https://adam-al-rahman.github.io/LabGarden/neural-network/regression/machine_learning/tensorflow/ml_model/2022/01/02/straight-line.html</loc>
 <lastmod>2022-01-02T00:00:00-06:00</lastmod>
-</url>
-<url>
-<loc>https://adam-al-rahman.github.io/LabGarden/2022/01/25/QML.html</loc>
-<lastmod>2022-01-25T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>https://adam-al-rahman.github.io/LabGarden/2022/02/11/Hackathon.html</loc>
